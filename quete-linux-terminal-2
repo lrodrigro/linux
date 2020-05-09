@@ -1,0 +1,130 @@
+lrodrig@roysi022:~/quetes/shell$ find .
+.
+./planets
+./planets/inhabited
+./planets/inhabited/saturn.jpeg
+./planets/inhabited/mars.jpeg
+./planets/inhabited/jupiter.jpeg
+./planets/inhabited/earth.jpeg
+./planets/fictional
+./planets/fictional/cybertron.jpeg
+./planets/fictional/arrakis.jpeg
+./planets/fictional/coruscant.jpeg
+./planets/real
+./planets/real/gas-giants
+./planets/real/gas-giants/saturn.jpeg
+./planets/real/gas-giants/jupiter.jpeg
+./planets/real/gas-giants/neptune.jpeg
+./planets/real/gas-giants/uranus.jpeg
+./planets/real/telluric
+./planets/real/telluric/mars.jpeg
+./planets/real/telluric/mercury.jpeg
+./planets/real/telluric/venus.jpeg
+./planets/real/telluric/earth.jpeg
+./planets.zip
+lrodrig@roysi022:~/quetes/shell$ tree
+.
+├── planets
+│   ├── fictional
+│   │   ├── arrakis.jpeg
+│   │   ├── coruscant.jpeg
+│   │   └── cybertron.jpeg
+│   ├── inhabited
+│   │   ├── earth.jpeg
+│   │   ├── jupiter.jpeg
+│   │   ├── mars.jpeg
+│   │   └── saturn.jpeg
+│   └── real
+│       ├── gas-giants
+│       │   ├── jupiter.jpeg
+│       │   ├── neptune.jpeg
+│       │   ├── saturn.jpeg
+│       │   └── uranus.jpeg
+│       └── telluric
+│           ├── earth.jpeg
+│           ├── mars.jpeg
+│           ├── mercury.jpeg
+│           └── venus.jpeg
+└── planets.zip
+
+./real/gas-giants/saturn.jpeg
+./real/gas-giants/jupiter.jpeg
+./real/gas-giants/neptune.jpeg
+./real/gas-giants/uranus.jpeg
+./real/telluric
+./real/telluric/mars.jpeg
+./real/telluric/mercurl -L -o planets.zip https://github.com/WildCodeSchool/quests-resources/blob/master/terminal/planets.zip?raw=true
+ls -lrt
+unzip planets.zip 
+ls -lrt
+cd planets/
+mkdir real fictional inhabited
+ls -lrt
+cd real
+mkdir telluric gas-giants dwarf-planets
+ls -lrt
+ls -lrt ../../*
+cd real
+ls -lrt
+mv ../../venus.jpeg ./telluric/
+ls -lrt ../../*
+mv ../../planets/venus.jpeg ./telluric/
+ls -l
+mv ../../planets/pluto.jpeg ./dwarf-planets/
+mv ../../planets/saturn.jpeg ./gas-giants/
+mv ../../planets/jupiter.jpeg ./gas-giants/
+mv ../../planets/mercury.jpeg ./telluric/
+mv ../../planets/venus.jpeg ./telluric/
+mv ../../planets/earth.jpeg ./telluric/
+mv ../../planets/mars.jpeg ./telluric/
+cd ..
+cd fictional/
+mv ../../planets/cybertron.jpeg ./
+mv ../../planets/coruscant.jpeg ./
+mv ../../planets/arrakis.jpeg ./
+cd ..
+ls -lrt
+cd real
+ls -lrt *
+cd ..
+ls -l
+cd real
+ls -l
+cd gas-giants/
+pwd
+mv ../../planets/uranus.jpeg ./
+ls -l ../../planets/uranus.jpeg
+ls -l ../planets/uranus.jpeg
+ls -l ../../planets/*
+ls -l ~/quetes/shell/planets/*
+mv ~/quetes/shell/planets/neptune.jpeg .
+mv ~/quetes/shell/planets/uranus.jpeg .
+ls -lrt
+cd ..
+ls -l *
+ls -lrt
+cd ..
+ls -lrt
+ls -l
+ls -l *
+tree
+sudo apt install tree
+tree
+cp ./real/telluric/earth.jpeg ./inhabited/
+tree
+cp ./real/telluric/mars.jpeg ./inhabited/
+cp ./real/telluric/venus.jpeg ./inhabited/
+cp ./real/gas-giants/jupiter.jpeg ./inhabited/
+cp ./real/gas-giants/saturn.jpeg ./inhabited/
+cd real
+ls -lrt
+rm -r dwarf-planets
+cd ..
+tree
+find .
+cury.jpeg
+./real/telluric/venus.jpeg
+./real/telluric/earth.jpeg
+Histoy
+
+
